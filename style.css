@@ -934,11 +934,6 @@ h1 {
     font-size: clamp(2rem, 5vw, 5rem);
 }
 
-@media (max-width: 768px) {
-  .founder-seal {
-    width: 160px;
-  }
-}
 .top-nav {
   position: absolute;
   top: 30px;
