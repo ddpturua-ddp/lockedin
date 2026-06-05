@@ -941,10 +941,6 @@ button:hover {
 @media (max-width: 768px) {
   .founder-seal {
     width: 160px;
-    position: absolute;
-    top: -80px;
-    left: 50%;
-    transform: translateX(-50);
   }
 }
 .top-nav {
@@ -1194,7 +1190,7 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .signup-section,
   .cta-section {
     width: 95%;
@@ -1216,13 +1212,6 @@ body {
 
   img {
     max-width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .social-links img {
-    width: 80px;
     height: auto;
   }
 }
