@@ -1184,3 +1184,29 @@ body {
   cursor: pointer;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .signup-section,
+  .cta-section {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .social-links img {
+    width: 80px;
+    height: auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
