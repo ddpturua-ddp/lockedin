@@ -794,10 +794,10 @@ button:hover {
   }
 }
 
-.signup-section {
+/*.signup-section {
   padding: 120px 20px;
   text-align: center;
-}
+}*/
 
 .signup-section h2 {
   font-size: 3rem;
@@ -927,8 +927,14 @@ button:hover {
 }
 
 .founder-seal {
-    width: clamp(150px, 20vw, 250px);
-    height: auto;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+
+  width: 200px;
+  height: auto;
+
+  z-index: 10;
 }
 
 h1 {
