@@ -829,10 +829,9 @@ button:hover {
   }
 }
 
-.social-links img {
-  width: 200px;
-  height: 180px;
-  transition: 0.3s;
+.social-links {
+  width: clamp(50px, 12vw, 80px);
+  height: auto;
 }
 
 .social-links img:hover {
@@ -842,7 +841,9 @@ button:hover {
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   margin-top: 10px;
 }
 
