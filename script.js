@@ -8,20 +8,7 @@ let xp = 0;
 let coins = 0;
 let level = 1;
 let energy = 100;
-/*const cameraInput = document.getElementById("camera-input");
-const photoPreview = document.getElementById("photo-preview");
-cameraInput.addEventListener("change", function () {
-  const file = this.files[0];
-  if (file) {
-    photoPreview.src = URL.createObjectURL(file);
-
-    xp += 50;
-    coins += 10;
-    console.log("XP:", xp);
-    console.log("Coins:", coins);
-  }
-});
-/* =========================
+/*== =========================
    BUTTON EFFECT
 ========================= */
 
