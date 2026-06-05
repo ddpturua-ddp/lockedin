@@ -109,7 +109,7 @@ form.addEventListener("submit", async (e) => {
       },
     );
 
-    alert("Welcome to LOCKEDIN!");
+    document.getElementById("lockedinPopup").style.display = "flex";
 
     form.reset();
   } catch (error) {
@@ -117,8 +117,6 @@ form.addEventListener("submit", async (e) => {
     alert("Submission failed.");
   }
 });
-
-document.getElementById("lockedinPopup").style.display = "flex";
 
 function closePopup() {
   document.getElementById("lockedinPopup").style.display = "none";
