@@ -1138,14 +1138,14 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-  }
+  }*/
 
-  .social-links img {
-    width: 80px;
-    height: auto;
-  }
+.social-links img {
+  width: 40px;
+  height: auto;
+}
 
-  img {
+/*img {
     max-width: 100%;
     height: auto;
   }
