@@ -675,7 +675,7 @@ button:hover {
    MOBILE
 ========================= */
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .hero-title {
     letter-spacing: 5px;
   }
@@ -693,7 +693,7 @@ button:hover {
 
     max-width: 320px;
   }
-}
+}*/
 
 .video-content h2 {
   font-size: clamp(3rem, 8vw, 7rem);
@@ -747,7 +747,7 @@ button:hover {
 
 /* MOBILE */
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .signup-section {
     padding: 20px;
   }
@@ -755,7 +755,7 @@ button:hover {
   .signup-section iframe {
     min-height: 1000px;
   }
-}
+}*/
 
 /*.signup-section {
   padding: 120px 20px;
@@ -782,7 +782,7 @@ button:hover {
   box-shadow: 0 0 40px rgba(212, 175, 55, 0.12);
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .signup-section h2 {
     font-size: 2rem;
   }
@@ -799,7 +799,7 @@ button:hover {
 
 .social-links img:hover {
   transform: scale(1.15);
-}
+}*/
 
 .social-links {
   display: flex;
@@ -921,6 +921,7 @@ h1 {
   transition: all 0.3s ease;
 }
 
+
 .top-nav a:hover {
   color: white;
   text-shadow: 0 0 15px #d4af37;
@@ -930,18 +931,16 @@ h1 {
 .video-content {
   position: relative;
   z-index: 3;
-
   text-align: center;
-
   width: 100%;
   max-width: 1200px;
-
   padding: 20px;
+}
 
-  .video-content h2 {
-    font-size: clamp(4rem, 12vw, 10rem);
-    margin-bottom: 20px;
-  }
+.video-content h2 {
+  font-size: clamp(4rem, 12vw, 10rem);
+  margin-bottom: 20px;
+}
 
  /* display: flex;
   flex-direction: column;
@@ -1054,13 +1053,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-
-.video-section .video-content .signup-section .footer,
-.social-links {
-  opacity: 1 !important;
-  visibility: visible !important;
-  display: flex !important;
 }
 
 .core-flag {
